@@ -1,0 +1,64 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333333;
+    padding: 10px;
+    text-align: center;
+}
+
+.site-title {
+    font-family: 'Corbert Condensed', sans-serif;
+    font-style: italic;
+    color: #ffffff;
+    margin: 0;
+}
+
+nav {
+    background-color: #222222;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-tab {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease; /* Add a transition for smoother effect */
+}
+
+/* Hover effect */
+.nav-tab:hover {
+    background-color: #444444;
+}
+
+main {
+    padding: 20px;
+}
+
+
+footer {
+    background-color: #333333;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Active tab */
+.active {
+    background-color: grey;
+    color: #333333;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333333;
+    padding: 10px;
+    text-align: center;
+}
